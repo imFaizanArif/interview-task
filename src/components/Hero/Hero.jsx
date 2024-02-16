@@ -2,7 +2,7 @@ import React from 'react'
 import { hero1, phone, qrCode } from '../../assets'
 import PrimaryButton from '../Buttons/PrimaryButton'
 import '../../assets/styles/fonts.css'
-import '../../assets/styles/navbar.css'
+import '../../assets/styles/hero.css'
 const Hero = () => {
     <style>
 
