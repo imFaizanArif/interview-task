@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading-1 {
+    @apply font-normal text-8xl mb-4
+}
+
+.heading-2 {
+    @apply font-normal text-7xl mb-4
+}
+
+.heading-3 {
+    @apply font-normal text-[40px] mb-4
+}
+
+.heading-4 {
+    @apply font-normal text-3xl mb-4
+}
+
+@layer components {
+    .text-stroke {
+        color: #00111A;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .text-stroke-invert {
+        color: white;
+        -webkit-text-stroke: 1px #00111A;
+    }
+}
